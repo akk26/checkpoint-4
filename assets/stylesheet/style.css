@@ -58,7 +58,6 @@ body{
   font-family: 'Raleway', sans-serif;
   line-height: 1.5;
   position: relative;
-  /* padding-bottom: 12rem; */
 }
 :root{
   --primary: rgb(100,86,82);
@@ -162,6 +161,9 @@ input, textarea{
 }
 .height{
   height: 250px ;
+}
+.padding-header{
+  padding: 1rem 0rem;
 }
 /* header home page */
 #toggle{
@@ -579,7 +581,6 @@ input, textarea{
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.4)), url(../media/testimonials-bg.jpg) no-repeat ;
   background-size: cover;
   height: 70vh;
-  /* padding: 5rem 0rem;  */
   background-attachment: fixed;
   overflow: auto;
 }
@@ -1031,7 +1032,6 @@ input::placeholder, textarea::placeholder{
   background: rgb(244,242,242);
   padding: 1rem 0;
   font-weight: 600;
-  margin-right: 1rem;
 }
 .primary-font{
   color: var(--tirtiary);
@@ -1340,14 +1340,20 @@ input::placeholder, textarea::placeholder{
   .sm-text-center {
     text-align: center;
   }
+  .fixed{
+    height: 40px;
+  }
 
-  /* header  */
+  /* header  responsive*/
 
   .nav-link a{
     color: rgb(0,0,0);
   }
   .container{
     padding: 0 1rem;
+  }
+  .container-blog{
+    padding: 0rem 2rem;
   }
   .margin-right{
     margin-right: 0;
@@ -1413,9 +1419,6 @@ input::placeholder, textarea::placeholder{
   }
   .about .about-img{
     margin-top: 4rem;
-  }
-  .margin-top{
-    margin-top: 1rem;
   }
   .testimonial .t-main{
     padding: 0rem;
